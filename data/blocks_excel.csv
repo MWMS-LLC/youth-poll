@@ -1,0 +1,55 @@
+﻿id,category_id,block_number,block_code,block_text,version,uuid,category_name,created_at
+1,1,1,1_1,A thank-you is the best first move: Someone to Thank 🎵[playlist:1st Thing 1st],1,2b48a45c-a777-4fbc-8ef7-a1c962b13145,1st Thing 1st,2025-10-07 16:30:27.988695
+2,1,2,1_2,Ask 1 Question in Class: That Can Change the Way You See School 🎵[playlist:1st Thing 1st],1,2b48a45c-a777-4fbc-8ef7-a1c962b13146,1st Thing 1st,2025-10-07 16:30:28.019133
+3,1,3,1_3,Ask 1 Question in Your Daydream: That Can Change the Way You See Your Life,1,2b48a45c-a777-4fbc-8ef7-a1c962b13147,1st Thing 1st,2025-10-07 16:30:28.049547
+4,1,4,1_4,Ask 1 Question at Dinner: That Can Change the Way You See Your Parents — and the Way They See You.,1,2b48a45c-a777-4fbc-8ef7-a1c962b13148,1st Thing 1st,2025-10-07 16:30:28.080384
+5,2,1,2_1,Imagining Love,1,2b48a45c-a777-4fbc-8ef7-a1c962b13149,Love,2025-10-07 16:30:28.111521
+6,2,2,2_2,"Do They Like Me? Small Moves, Big Feels 🎵[playlist:Love]",1,3b11a3a1-05f4-4862-a6b8-7d8d97a28e33,Love,2025-10-07 16:30:28.141264
+7,2,3,2_3,Kind of a Couple,1,5f77b0cb-330e-41a5-b81c-1d3ab1ed8f29,Love,2025-10-07 16:30:28.171894
+8,2,4,2_4,"Almost, Not Quite",1,acc6ec24-512e-4d5f-8db6-b5bf86eca745,Love,2025-10-07 16:30:28.202489
+9,2,5,2_5,Ghost and Goodbye The Sky That Stayed 🎵[playlist:Breakup],1,d3d6883b-8ebc-4c63-b44b-694c66279e53,Love,2025-10-07 16:30:28.233035
+10,2,6,2_6,Love in Beta,1,e3d6883b-8ebc-4c63-b44b-694c66279e54,Love,2025-10-07 16:30:28.263751
+11,3,1,3_1,How to Make Friends,1,d3d6883b-8ebc-4c63-b44b-694c66279e54,Friends,2025-10-07 16:30:28.293830
+12,3,2,3_2,How to Keep a Friend,1,d3d6883b-8ebc-4c63-b44b-694c66279e55,Friends,2025-10-07 16:30:28.323388
+13,3,3,3_3,Friendship Values,1,9b08ccfe-4d32-4602-bdfe-b5600b7a7dbd,Friends,2025-10-07 16:30:28.353765
+14,3,4,3_4,Friendship Challenges 🎵[playlist:Hurt],1,eccde825-665d-42f5-a61a-628e6091b258,Friends,2025-10-07 16:30:28.384344
+15,3,5,3_5,Outside Influence,1,ff278bdf-20b6-412d-b6ce-ab72c99313b9,Friends,2025-10-07 16:30:28.414523
+16,3,6,3_6,Fitting In & Left Out 🎵[playlist:Spiral],1,f08f896d-b052-4915-a04b-a162a8a54797,Friends,2025-10-07 16:30:28.444226
+17,4,1,4_1,Online Life,1,a78369e0-81cb-4c76-91bc-6911e4452b30,Online Life,2025-10-07 16:30:28.474410
+18,4,2,4_2,"Posting, Following & Feeling Seen 🎵[playlist:Spiral]",1,ac841676-01ad-4c33-b067-f1ba5986942b,Online Life,2025-10-07 16:30:28.505342
+19,5,1,5_1,"Soft Power, Loud Heart",1,ad021302-66f2-4c2e-b8ed-8d8648adf680,Pinky,2025-10-07 16:30:28.535104
+20,5,2,5_2,"Tiny Things, Big Feelings",1,7b91e32b-3185-4090-b77d-a168f464717e,Pinky,2025-10-07 16:30:28.567344
+21,5,3,5_3,"Daily Drip, Inner Script",1,96f426b4-f10e-4111-b6e5-a5560e05514a,Pinky,2025-10-07 16:30:28.595760
+22,6,1,6_1,Lowkey Legends 🎵[playlist:Lowkey],1,3d928ea4-ce89-41ff-b41d-e3f08b52ed5c,Lowkey,2025-10-07 16:30:28.628750
+23,6,2,6_2,"Quiet Mode, Full Power",1,fabc58eb-c8d4-40df-b33a-bf4f67df7303,Lowkey,2025-10-07 16:30:28.658927
+24,7,1,7_1,"Energy, creativity, inspiration",1,94a5aca4-8390-45e7-90cd-a7a80430e263,Personal,2025-10-07 16:30:28.690352
+25,7,2,7_2,Pressure Handling 🎵[playlist:Believe],1,f238fbf6-f59a-4e12-bc8c-23792ce1a693,Personal,2025-10-07 16:30:28.720751
+26,7,3,7_3,Hang Out and Trust,1,fb9d45d3-d052-452e-8aa7-9ccaf8accf4f,Personal,2025-10-07 16:30:28.750453
+27,7,4,7_4,Rejection and Hardship 🎵[playlist:Hurt],1,184b9e1f-86a0-4d37-be0b-8fcbd9273f10,Personal,2025-10-07 16:30:28.780659
+28,7,5,7_5,"Regret, Repair, and the Road Ahead",1,59dffbd5-d94e-4804-bbd3-9fa32c447fff,Personal,2025-10-07 16:30:28.810954
+29,7,6,7_6,Adults & society,1,26de9008-f30e-4e5d-bf1a-009ce95c16cd,Personal,2025-10-07 16:30:28.841630
+30,7,7,7_7,"Like, You Know, Kinda Confident",1,00c2027f-948a-40f7-8bff-fa98119fc7d9,Personal,2025-10-07 16:30:28.872377
+31,7,8,7_8,"Color, Weather, Sound: You",1,eb4e7798-0bbd-40f7-971d-a22396ac0892,Personal,2025-10-07 16:30:28.903408
+32,8,1,8_1,"Forgive, for Real",1,ce5345cb-21ee-481d-8f46-2bf76f452cb8,Healing,2025-10-07 16:30:28.934588
+33,8,2,8_2,The Way Forward 🎵[playlist:5 Years Later],1,148ec956-7aa9-493d-996d-c562cb0d941d,Healing,2025-10-07 16:30:28.964445
+34,9,1,9_1,I Know Who I Am 🎵[playlist:Believe],1,ea1ab8c0-6326-41b7-9bd4-1eb136cc6780,Defense,2025-10-07 16:30:28.997053
+35,9,2,9_2,Someone Has to Do Something,1,ff70ab10-9733-489c-9251-096304f500c3,Defense,2025-10-07 16:30:29.027823
+36,10,1,10_1,Home is a Vibe,1,a01a8edc-8531-4f31-b5d5-2db71ef141a1,Family,2025-10-07 16:30:29.058209
+37,10,2,10_2,When Home Gets Loud,1,752f937f-796e-4473-9363-5ec3b9b3e1c4,Family,2025-10-07 16:30:29.087837
+38,10,3,10_3,Chores,1,17314ec6-fb10-42ca-a5ae-6d1e585d310e,Family,2025-10-07 16:30:29.118085
+39,10,4,10_4,What I Wish Them Knew 🎵[playlist:Family],1,71314ec6-fb10-42ca-a5ae-6d1e585d310e,Family,2025-10-07 16:30:29.148453
+40,11,1,11_1,"AI and Me: Use It, Build It, or Stop it 🎵[playlist:AI and Me]",1,ab4a7f45-aac8-40b2-b9b6-ebda9b0afd50,Future,2025-10-07 16:30:29.179128
+41,11,2,11_2,"Work, Worth & the AI Economy",1,9c3f7c6c-8de8-45fb-b4a0-e6f846bb6d4b,Future,2025-10-07 16:30:29.208485
+42,11,3,11_3,"Future Me: Real, Brave, and Still Human 🎵[playlist:Theme Song]",1,5c8edc2d-a1b4-4caf-a49d-ff123225a444,Future,2025-10-07 16:30:29.240609
+43,12,1,12_1,Ready or Not,1,f8dfe6a4-ee2c-4749-a700-15c2e3c4b1b7,School,2025-10-07 16:30:29.271210
+44,12,2,12_2,From pressure to preparation,1,ad23c57b-844e-40b0-af2b-fb615a28d491,School,2025-10-07 16:30:29.301561
+45,12,3,12_3,When You Speak Up,1,77f0a234-b895-404e-82e5-797d386d44de,School,2025-10-07 16:30:29.330769
+46,12,4,12_4,Between the Bells,1,7d60137a-4506-4f82-8c80-6216060ddc37,School,2025-10-07 16:30:29.361146
+47,12,5,12_5,Rethinking School,1,f8dfe6a4-ee2c-4749-a700-15c2e3c4b1b6,School,2025-10-07 16:30:29.391197
+48,13,1,13_1,Video Games,1,e8dfe6a4-ee2c-4749-a700-15c2e3c4b1b7,Fun Stuff,2025-10-07 16:30:29.421904
+49,13,2,13_2,Food,1,db23c57b-844e-40b0-af2b-fb615a28d491,Fun Stuff,2025-10-07 16:30:29.451674
+50,13,3,13_3,Music,1,bd23c57b-844e-40b0-af2b-fb615a28d492,Fun Stuff,2025-10-07 16:30:29.481705
+51,13,4,13_4,Movies and Shows,1,87f0a234-b895-404e-82e5-797d386d44de,Fun Stuff,2025-10-07 16:30:29.511609
+52,13,5,13_5,Sports,1,8d60137a-4506-4f82-8c80-6216060ddc37,Fun Stuff,2025-10-07 16:30:29.541645
+53,14,1,14_1,Bodily Betrayal 101,1,7be8b015-0f92-4fd1-932e-b5efa2d02acd,Chaos,2025-10-07 16:30:29.573299
+54,14,2,14_2,Cringe & Chaos Edition,1,e123c4f7-2e80-45ad-bca4-cbb415879eb6,Chaos,2025-10-07 16:30:29.603646

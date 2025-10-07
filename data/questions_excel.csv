@@ -1,0 +1,256 @@
+﻿id,category_id,question_code,question_number,question_text,check_box,max_select,block_number,block_text,is_start_question,parent_question_id,color_code,version,created_at
+1,1,1_1,1,Who’s one person you could thank today—even if it’s been hard to notice the good?,False,1,1,A thank-you is the best first move: Someone to Thank 🎵[playlist:1st Thing 1st],False,,#D6C7E7,1,2025-10-07 16:30:29.633506
+2,1,1_2,2,What happened when you said it?,False,1,1,Someone to Thank,False,,#98FB98,1,2025-10-07 16:30:29.664363
+3,1,1_3,3,Curiosity is the fuel for ideas. Pick one spark and let your imagination run with it.  What is the one question you could ask in class today?,False,1,2,Ask 1 Question in Class: That Can Change the Way You See School 🎵[playlist:1st Thing 1st],False,,#FFAD84,1,2025-10-07 16:30:29.694460
+4,1,1_4,4,"When you let your mind wander, which future sparks your curiosity?  If you could solve any problem in the world, which one would you choose?",False,1,3,Ask 1 Question in Your Daydream: That Can Change the Way You See Your Life,False,,#ADD8E6,1,2025-10-07 16:30:29.724876
+5,1,1_5,5,"If you could create your dream job or start a business, what would it do?",False,1,3,Ask 1 Question in Your Daydream: That Can Change the Way You See Your Life,False,,#D6C7E7,1,2025-10-07 16:30:29.753774
+6,1,1_6,6,"If you already have a dream, what’s one step you could take this week toward it?",False,1,3,Ask 1 Question in Your Daydream: That Can Change the Way You See Your Life,False,,#F08080,1,2025-10-07 16:30:29.784988
+7,1,1_7,7,What was your favorite subject in school when you were my age?,False,1,4,Ask 1 Question at Dinner: That Can Change the Way You See Your Parents — and the Way They See You.,False,,#ADD8E6,1,2025-10-07 16:30:29.815178
+8,1,1_8,8,What’s one decision you made in your career that made you proud?,False,1,4,Ask 1 Question at Dinner: That Can Change the Way You See Your Parents — and the Way They See You.,False,,#FFE066,1,2025-10-07 16:30:29.845401
+9,1,1_9,9,"If you could go back and study something different, what would it be?",False,1,4,Ask 1 Question at Dinner: That Can Change the Way You See Your Parents — and the Way They See You.,False,,#FFE066,1,2025-10-07 16:30:29.875514
+10,2,2_1,1,"“Status: undefined, but not unloved.” Not all love lives are loud. Some are still forming, healing, daydreaming, or blooming when no one’s watching. What’s yours trying to say right now?  If your love life had a status update, what would it say?",False,1,1,Imagining Love,False,,#D6C7E7,1,2025-10-07 16:30:29.905087
+11,2,2_2,2,What do you imagine when you think about your first love?,True,10,1,Imagining Love,False,,#98FB98,1,2025-10-07 16:30:29.936323
+12,2,2_3,3,What kind of love do you believe in?,False,1,1,Imagining Love,False,,#FFAD84,1,2025-10-07 16:30:29.965292
+13,2,2_4,4,Real safety isn’t just about avoiding harm—it’s about feeling free to be yourself. You deserve people who don’t just like you—but protect your peace. What makes you feel safe with someone?,True,10,1,Imagining Love,False,,#ADD8E6,1,2025-10-07 16:30:29.996037
+14,2,2_5,5,What do you wish someone you like understood about you?,True,10,1,Imagining Love,False,,#D6C7E7,1,2025-10-07 16:30:30.025180
+15,2,2_6,6,Which line from a rom-com would you want someone to say to you?,True,10,1,Imagining Love,False,,#F08080,1,2025-10-07 16:30:30.056538
+16,2,2_7,7,Real love isn’t about perfect. It’s about the little weird things that make someone feel weirdly right. What’s your crush ick you secretly find cute?,True,10,1,Imagining Love,False,,#ADD8E6,1,2025-10-07 16:30:30.085306
+17,2,2_8,8,Which meet-cute(s) would you totally fall for? (Pick all that make your heart do the thing 💘),True,10,2,"Do They Like Me? Small Moves, Big Feels 🎵[playlist:Love]",False,,#FFE066,1,2025-10-07 16:30:30.116858
+18,2,2_9,9,How do you act when your crush is nearby?,True,10,2,"Do They Like Me? Small Moves, Big Feels 🎵[playlist:Love]",False,,#D6C7E7,1,2025-10-07 16:30:30.146827
+19,2,2_10,10,How do you show someone you like them? [playlist:Love],True,10,2,"Do They Like Me? Small Moves, Big Feels 🎵[playlist:Love]",False,,#F08080,1,2025-10-07 16:30:30.178861
+20,2,2_11,11,What makes you feel uneasy in a relationship—even if it’s not “bad” on paper? You’re not asking for too much. You’re just done playing chill when you need real.,True,10,3,Kind of a Couple,False,,#D6C7E7,1,2025-10-07 16:30:30.209816
+21,2,2_12,12,What makes you feel uneasy in a relationship—even if it’s not “toxic”? Needing peace doesn’t mean you don’t care. It means you know how you stay whole.,True,10,3,Kind of a Couple,False,,#ADD8E6,1,2025-10-07 16:30:30.242088
+22,2,2_13,13,What’s one “How do people even get married?” moment you’ve seen or lived?,True,10,3,Kind of a Couple,False,,#98FB98,1,2025-10-07 16:30:30.280212
+23,2,2_14,14,"Heartbreak doesn’t follow rules. Whether you cried, created, or just kept going—you showed up for yourself. And that matters. When your crush likes someone else",True,10,4,"Almost, Not Quite",False,,#B0C4DE,1,2025-10-07 16:30:30.310379
+24,2,2_15,15,"If someone likes you but you don’t feel the same, what do you do?",True,10,4,"Almost, Not Quite",False,,#F08080,1,2025-10-07 16:30:30.340743
+25,2,2_16,16,"If someone told you 'I love you' way too early, what would you do?",True,10,4,"Almost, Not Quite",False,,#ADD8E6,1,2025-10-07 16:30:30.370316
+26,2,2_17,17,"Ghosting doesn’t mean you’re unworthy—it means they didn’t know how to show up. You don’t have to carry their silence like it’s your fault.  If someone ghosted you, what would you tell yourself?",True,10,5,Ghost and Goodbye The Sky That Stayed 🎵[playlist:Breakup],False,,#ADD8E6,1,2025-10-07 16:30:30.400692
+27,2,2_18,18,Sometimes it’s not the breakup—it’s the after. The silence. The space. The stories you’ll never get to ask. You’re allowed to miss what mattered. [playlist:Breakup]  What hurts most after a breakup?,True,10,5,Ghost and Goodbye The Sky That Stayed 🎵[playlist:Breakup],False,,#ADD8E6,1,2025-10-07 16:30:30.430934
+28,2,2_19,19,Breakups don’t always end at goodbye. Sometimes the hardest part is what comes after—the part you watch from afar. However you react—it’s okay. You’re still healing. What do you do when your ex starts dating someone new?,True,10,5,Ghost and Goodbye The Sky That Stayed 🎵[playlist:Breakup],False,,#ADD8E6,1,2025-10-07 16:30:30.461034
+29,2,2_20,20,How do you act around someone who broke your heart?,True,10,5,Ghost and Goodbye The Sky That Stayed 🎵[playlist:Breakup],False,,#ADD8E6,1,2025-10-07 16:30:30.491149
+30,2,2_21,21,Some things never got said. That doesn’t mean they weren’t true. You still get to speak your version—even if they never hear it. What do you wish you could say to the person who broke your heart?,True,10,5,Ghost and Goodbye The Sky That Stayed 🎵[playlist:Breakup],False,,#FFE066,1,2025-10-07 16:30:30.520632
+31,2,2_22,22,"Moving on isn’t one path—it’s a mess of thoughts, feelings, masks, and moments. You don’t need to do it perfectly. Just honestly.  What made your old love finally feel… less loud?",True,10,5,Ghost and Goodbye The Sky That Stayed 🎵[playlist:Breakup],False,,#FFAD84,1,2025-10-07 16:30:30.550440
+116,7,7_5,5,What’s your favorite way to express yourself?,False,1,1,"Energy, creativity, inspiration",False,,#FFAD84,1,2025-10-07 16:30:33.129692
+117,7,7_6,6,What does being inspired feel like to you?,True,10,1,"Energy, creativity, inspiration",False,,#D6C7E7,1,2025-10-07 16:30:33.159972
+32,2,2_23,23,Sometimes love ends before the truth arrives. That doesn’t mean you failed—it means you grew. Even the wrong story can teach you what kind of love is right.  Have you ever realized later that the relationship wasn’t right for you?,True,10,5,Ghost and Goodbye The Sky That Stayed 🎵[playlist:Breakup],False,,#ADD8E6,1,2025-10-07 16:30:30.581176
+33,2,2_24,24,"Some love stories end with closure. Others end with… screenshots. Either way, if you can laugh now, it means you’ve made it somewhere new.  What’s a moment from a past relationship you laugh about now?",False,1,5,Ghost and Goodbye The Sky That Stayed 🎵[playlist:Breakup],False,,#ADD8E6,1,2025-10-07 16:30:30.611270
+34,2,2_25,25,"If your love life was a playlist, what’s the title?",True,10,6,Love in Beta,False,,#98FB98,1,2025-10-07 16:30:30.641476
+35,2,2_26,26,"Your love life isn’t broken. It’s just in beta. Honest status updates are the start of real growth—and great stories. 💘 If your love life had a status update, what would it say?",False,1,6,Love in Beta,False,,#F08080,1,2025-10-07 16:30:30.670878
+36,3,3_1,1,Do you find making friends…,False,1,1,How to Make Friends,False,,#ADD8E6,1,2025-10-07 16:30:30.700762
+37,3,3_2,2,Do you have friends right now?,False,1,1,How to Make Friends,False,,#ADD8E6,1,2025-10-07 16:30:30.730609
+38,3,3_3,3,What’s the easiest way to start talking to someone new?,True,10,1,How to Make Friends,False,,#98FB98,1,2025-10-07 16:30:30.761049
+39,3,3_4,4,"If you want someone to like you, what should you focus on first?",True,10,1,How to Make Friends,False,,#FFE066,1,2025-10-07 16:30:30.791898
+40,3,3_5,5,What’s the best way to keep a conversation going?,True,10,1,How to Make Friends,False,,#FFE066,1,2025-10-07 16:30:30.821968
+41,3,3_6,6,When is a good moment to ask someone to hang out?,True,10,1,How to Make Friends,False,,#ADD8E6,1,2025-10-07 16:30:30.852529
+42,3,3_7,7,How can you make someone feel important without overdoing it?,True,10,1,How to Make Friends,False,,#98FB98,1,2025-10-07 16:30:30.882499
+43,3,3_8,8,Do you think keeping friends is…,False,1,2,How to keep friends,False,,#FFE066,1,2025-10-07 16:30:30.912115
+44,3,3_9,9,What’s most important for keeping a friendship strong?,True,10,2,How to keep friends,False,,#FFAD84,1,2025-10-07 16:30:30.942937
+45,3,3_10,10,How do you show a friend they matter to you?,True,10,2,How to keep friends,False,,#D6C7E7,1,2025-10-07 16:30:30.972668
+46,3,3_11,11,What makes someone a real friend?,True,10,3,Friendship Values,False,,#ADD8E6,1,2025-10-07 16:30:31.002832
+47,3,3_12,12,What does loyalty mean to you in a friendship?,True,10,3,Friendship Values,False,,#F08080,1,2025-10-07 16:30:31.032900
+48,3,3_13,13,What kind of friend are you?,True,10,3,Friendship Values,False,,#ADD8E6,1,2025-10-07 16:30:31.062848
+49,3,3_14,14,What do you wish your friends understood about you?,False,1,3,Friendship Values,False,,#ADD8E6,1,2025-10-07 16:30:31.092834
+50,3,3_15,15,**“Being seen” isn’t about attention. It’s about recognition.** Which kind do you want more of this year?  What’s one way a friend could make you feel seen this year?,True,10,3,Friendship Values,False,,#98FB98,1,2025-10-07 16:30:31.124353
+51,3,3_16,16,How do you act when a friend gets something you really wanted?,True,10,3,Friendship Values,False,,#FFE066,1,2025-10-07 16:30:31.154419
+52,3,3_17,17,"If you and a friend argue, what’s the best move?",True,10,4,Friendship Challenges 🎵[playlist:Hurt],False,,#FFE066,1,2025-10-07 16:30:31.185338
+53,3,3_18,18,What makes you want to step back from a friendship?,True,10,4,Friendship Challenges,False,,#ADD8E6,1,2025-10-07 16:30:31.213919
+54,3,3_19,19,What do you do when a friend hurts your feelings?,False,1,4,Friendship Challenges,False,,#98FB98,1,2025-10-07 16:30:31.244713
+55,3,3_20,20,What do you do when a friend breaks your trust?,True,10,4,Friendship Challenges,False,,#FFE066,1,2025-10-07 16:30:31.275107
+56,3,3_21,21,Do you believe in second chances with friends?,True,10,4,Friendship Challenges,False,,#FFAD84,1,2025-10-07 16:30:31.305387
+57,3,3_22,22,What if your friend’s voice is mixed with someone else’s influence?,False,1,5,Outside Influence,False,,#D6C7E7,1,2025-10-07 16:30:31.336076
+58,3,3_23,23,When a friend chose someone else over you,False,1,5,Outside Influence,False,,#ADD8E6,1,2025-10-07 16:30:31.365846
+59,3,3_24,24,Do you ever feel invisible in your friend group? If yes—what do you think is really going on?,True,10,6,Fitting In & Left Out 🎵[playlist:Spiral],False,,#98FB98,1,2025-10-07 16:30:31.396245
+60,3,3_25,25,"If your friend made you feel invisible in a group, what would you do?",True,10,6,Fitting In & Left Out,False,,#B0C4DE,1,2025-10-07 16:30:31.426289
+61,3,3_26,26,You didn’t get the invite. But you still get to decide who you are. [playlist:Hurt]  You found out there was a party... but you weren’t invited. How do you feel?,True,10,6,Fitting In & Left Out,False,,#F08080,1,2025-10-07 16:30:31.455844
+62,3,3_27,27,"When you feel left out, what helps the most?",True,10,6,Fitting In & Left Out,False,,#FFE066,1,2025-10-07 16:30:31.486670
+63,3,3_28,28,"If your friend left you out, what did you do?",True,10,6,Fitting In & Left Out,False,,#D6C7E7,1,2025-10-07 16:30:31.516641
+64,3,3_29,29,Why do you think you were left out?,True,10,6,Fitting In & Left Out,False,,#ADD8E6,1,2025-10-07 16:30:31.548488
+65,3,3_30,30,What do you want to happen next time?,True,10,6,Fitting In & Left Out,False,,#FFE066,1,2025-10-07 16:30:31.579726
+66,3,3_31,31,"Left out? Okay. Now watch me choose my character arc.  When you’re left out, what kind of person do you want to be anyway?",True,10,6,Fitting In & Left Out,False,,#FFAD84,1,2025-10-07 16:30:31.610383
+67,3,3_32,32,Sometimes fitting in costs more than it’s worth.  Have you ever gone along with something that didn’t feel right to you—just to fit in?,False,1,6,Fitting In & Left Out,False,,#D6C7E7,1,2025-10-07 16:30:31.640629
+68,3,3_33,33,What do you do when you don’t want to go along with what your friends are doing?,False,1,6,Fitting In & Left Out,False,,#ADD8E6,1,2025-10-07 16:30:31.670797
+69,3,3_34,34,What do you do when you feel like you’re always the second choice?,False,1,6,Fitting In & Left Out,False,,#98FB98,1,2025-10-07 16:30:31.700447
+70,3,3_35,35,"What do you do when a friend is pulling away, but you’re not sure why?",False,1,6,Fitting In & Left Out,False,,#B0C4DE,1,2025-10-07 16:30:31.731338
+71,3,3_36,36,When a friend chose someone else over you 🤪,True,10,6,Fitting In & Left Out,False,,#F08080,1,2025-10-07 16:30:31.761367
+72,3,3_37,37,It stings to be left out. But picking a guest list isn’t easy either. Sometimes it’s not personal—it’s just hard.  How do you handle it when you’re the host?,False,1,6,Fitting In & Left Out,False,,#ADD8E6,1,2025-10-07 16:30:31.791294
+73,3,3_38,38,How do you handle it when someone feels hurt because you didn’t include them?,False,1,6,Fitting In & Left Out,False,,#98FB98,1,2025-10-07 16:30:31.821276
+118,7,7_7,7,When do you feel most inspired?,True,10,1,"Energy, creativity, inspiration",False,,#ADD8E6,1,2025-10-07 16:30:33.190557
+74,4,4_1,1,"Pew Research Center (April 2025) reported: Teens acknowledge both positives and negatives: 74% say it’s enhanced friendships; 63% say it’s sparked creativity—but 39% feel overwhelmed by drama, and 31% pressured to post . How much time do you usually spend online each day (outside of schoolwork)?",False,1,1,Online Life,False,,#B0C4DE,1,2025-10-07 16:30:31.851035
+75,4,4_2,2,Where do you spend most of your online time? (Pick 2),True,2,1,Online Life,False,,#F08080,1,2025-10-07 16:30:31.881373
+76,4,4_3,3,Do you think online friendships are “real friendships”?,False,1,1,Online Life,False,,#FFE066,1,2025-10-07 16:30:31.910593
+77,4,4_4,4,What do you like most about being online?,True,10,1,Online Life,False,,#ADD8E6,1,2025-10-07 16:30:31.941819
+78,4,4_5,5,Which social media app do you use most? (Pick up to 2),True,2,1,Online Life,False,,#ADD8E6,1,2025-10-07 16:30:31.971262
+79,4,4_6,6,"Why do you not use certain apps or platforms (like Instagram, TikTok, Snapchat)?",True,10,1,Online Life,False,,#98FB98,1,2025-10-07 16:30:32.001912
+80,4,4_7,7,What kinds of posts grab your interest most? (Pick up to 2),True,2,1,"Posting, Following & Feeling Seen",False,,#FFE066,1,2025-10-07 16:30:32.031964
+81,4,4_8,8,"When you post, what do you usually share? (Pick up to 2)",True,2,1,"Posting, Following & Feeling Seen",False,,#ADD8E6,1,2025-10-07 16:30:32.062646
+82,4,4_9,9,"When you look at other people’s life posts, how do you usually feel afterward?",False,1,1,"Posting, Following & Feeling Seen",False,,#FFE066,1,2025-10-07 16:30:32.095715
+83,4,4_10,10,"When someone posts about their ‘high life’ — trips, fancy stuff, best moments — what do you tend to feel about them?",False,1,1,"Posting, Following & Feeling Seen",False,,#FFAD84,1,2025-10-07 16:30:32.128620
+84,4,4_11,11,"When you worry about like counts, what’s behind it for you?",True,10,1,"Posting, Following & Feeling Seen",False,,#D6C7E7,1,2025-10-07 16:30:32.159580
+85,4,4_12,12,"If you hide the like counts on your post, what does it mean for you?",False,1,1,"Posting, Following & Feeling Seen",False,,#ADD8E6,1,2025-10-07 16:30:32.190426
+86,5,5_1,1,"No dress code, no shade. Style isn’t just what you wear—it’s a way to say “this is me” without talking.  What’s your dream outfit if no one could judge?",False,1,1,"Soft Power, Loud Heart",False,,#98FB98,1,2025-10-07 16:30:32.222377
+87,5,5_2,2,"Lip gloss, mascara, or blush—you only get one?",False,1,2,"Tiny Things, Big Feelings",False,,#B0C4DE,1,2025-10-07 16:30:32.252862
+88,5,5_3,3,What color feels like “you” today?,False,1,1,"Soft Power, Loud Heart",False,,#F08080,1,2025-10-07 16:30:32.282818
+89,5,5_4,4,"If your emotions had a scent, what would today’s be?",False,1,3,"Daily Drip, Inner Script",False,,#FFE066,1,2025-10-07 16:30:32.312675
+90,5,5_5,5,What’s your favorite kind of quiet?,False,1,1,"Soft Power, Loud Heart",False,,#98FB98,1,2025-10-07 16:30:32.344222
+91,5,5_6,6,What tiny thing makes you feel loved?,False,1,2,"Tiny Things, Big Feelings",False,,#D6C7E7,1,2025-10-07 16:30:32.374415
+92,5,5_7,7,"If you could bottle a moment and wear it as perfume, what would it be?",False,1,2,"Tiny Things, Big Feelings",False,,#ADD8E6,1,2025-10-07 16:30:32.404980
+93,5,5_8,8,What’s a red flag you’d walk past with sunglasses on?,False,1,1,"Soft Power, Loud Heart",False,,#98FB98,1,2025-10-07 16:30:32.435980
+94,5,5_9,9,What’s your personal theme song when you enter a room?,False,1,1,"Soft Power, Loud Heart",False,,#FFAD84,1,2025-10-07 16:30:32.465729
+95,5,5_10,10,👕👗 If you had to pick one outfit combo to see every day for a year—on yourself or your crush—which one wins?,False,1,3,"Daily Drip, Inner Script",False,,#FFE066,1,2025-10-07 16:30:32.494882
+96,5,5_11,11,What’s your “I woke up late” outfit —on yourself or your crush?,False,1,3,"Daily Drip, Inner Script",False,,#ADD8E6,1,2025-10-07 16:30:32.525489
+97,5,5_12,12,If you had to wear one for a year—shy but somehow magnetic—on yourself or your crush—which one wins?,False,1,3,"Daily Drip, Inner Script",False,,#FFE066,1,2025-10-07 16:30:32.555914
+98,5,5_13,13,💼 If you had to wear one vibe for a year—bossy but in denial——on yourself or your crush—which one wins?,False,1,3,"Daily Drip, Inner Script",False,,#FFAD84,1,2025-10-07 16:30:32.586085
+99,5,5_14,14,What’s a little thing that makes you feel pretty or powerful?,False,1,2,"Tiny Things, Big Feelings",False,,#D6C7E7,1,2025-10-07 16:30:32.616611
+100,6,6_1,1,Some strengths don’t shout. But they’re real—and they carry people more than anyone knows. What’s your lowkey superpower no one sees?,True,10,1,Lowkey Legends,False,,#ADD8E6,1,2025-10-07 16:30:32.647225
+101,6,6_2,2,Being around people all the time is a lot. There’s no wrong way to recharge—just your way. What do you do when you need a break from everyone?,True,10,2,"Quiet Mode, Full Power",False,,#98FB98,1,2025-10-07 16:30:32.676757
+102,6,6_3,3,🔵 What’s your personal theme song when you enter a room? (Lowkey Edition),False,1,1,Lowkey Legends,False,,#B0C4DE,1,2025-10-07 16:30:32.707305
+103,6,6_4,4,You walk into a room where everyone’s louder than you. What do you do?,True,10,1,Lowkey Legends,False,,#F08080,1,2025-10-07 16:30:32.736389
+104,6,6_5,5,Your friend sends a long message. You don’t know how to reply.,False,1,1,Lowkey Legends,False,,#ADD8E6,1,2025-10-07 16:30:32.767573
+105,6,6_6,6,Where do you usually sit when things feel too much?,False,1,2,"Quiet Mode, Full Power",False,,#FFAD84,1,2025-10-07 16:30:32.797876
+106,6,6_7,7,What’s your best move when you’re being watched?,False,1,1,Lowkey Legends,False,,#98FB98,1,2025-10-07 16:30:32.829068
+107,6,6_8,8,What sound feels most like you?,False,1,2,"Quiet Mode, Full Power",False,,#FFE066,1,2025-10-07 16:30:32.859321
+108,6,6_9,9,👕👟 If you had to pick one outfit combo to see every day for a year—on yourself or your crush—which one wins? Lowkey,False,1,1,Lowkey Legends,False,,#ADD8E6,1,2025-10-07 16:30:32.889389
+109,6,6_10,10,What’s your “I’m not trying but still cute” go-to—on yourself or your crush? Lowkey,False,1,1,Lowkey Legends,False,,#FFE066,1,2025-10-07 16:30:32.919533
+110,6,6_11,11,🧲 If you had to wear one vibe for a year—lowkey nervous but somehow magnetic—on yourself or your crush—which one wins?,False,1,2,"Quiet Mode, Full Power",False,,#F08080,1,2025-10-07 16:30:32.948694
+111,6,6_12,12,💼 If you had to wear one vibe for a year—bossy but in denial——on yourself or your crush—which one wins?,False,1,2,"Quiet Mode, Full Power",False,,#FFE066,1,2025-10-07 16:30:32.979780
+112,7,7_1,1,Want to know what other teens did this summer? Answer this question and see how your summer compares.  What did you actually do this summer? (Check all that apply),True,10,1,"Energy, creativity, inspiration",False,,#ADD8E6,1,2025-10-07 16:30:33.009437
+113,7,7_2,2,What’s giving you a spark of energy or pride these days?,False,1,1,"Energy, creativity, inspiration",False,,#98FB98,1,2025-10-07 16:30:33.040616
+114,7,7_3,3,What helps you feel like you’re moving in a direction that matters?,True,10,1,"Energy, creativity, inspiration",False,,#FFE066,1,2025-10-07 16:30:33.069791
+115,7,7_4,4,Where does your creativity show up most?,False,1,1,"Energy, creativity, inspiration",False,,#FFAD84,1,2025-10-07 16:30:33.099461
+119,7,7_8,8,"You know that feeling when you’re not performing, not shrinking—just being?  When do you feel most like yourself?",True,10,1,"Energy, creativity, inspiration",False,,#B0C4DE,1,2025-10-07 16:30:33.221865
+120,7,7_9,9,What gives you energy when you feel drained?,True,10,1,"Energy, creativity, inspiration",False,,#F08080,1,2025-10-07 16:30:33.250974
+121,7,7_10,10,How do you handle it when you feel like you have to get everything right?,False,1,2,Pressure Handling 🎵[playlist:Believe],False,,#98FB98,1,2025-10-07 16:30:33.280583
+122,7,7_11,11,What do you do when your brain needs a break?,True,10,2,Pressure Handling,False,,#FFE066,1,2025-10-07 16:30:33.310612
+123,7,7_12,12,What helps you calm down when life feels too big?,False,1,2,Pressure Handling,False,,#FFAD84,1,2025-10-07 16:30:33.340993
+124,7,7_13,13,"After homework, who do you usually spend time with?",False,1,3,Hang Out and Trust,False,,#ADD8E6,1,2025-10-07 16:30:33.371604
+125,7,7_14,14,Who do you trust with your secrets?,False,1,3,Hang Out and Trust,False,,#FFAD84,1,2025-10-07 16:30:33.401693
+126,7,7_15,15,If people go quiet when you walk by... what do you assume?,False,1,4,Rejection and Hardship 🎵[playlist:Hurt],False,,#D6C7E7,1,2025-10-07 16:30:33.433379
+127,7,7_16,16,Do you ever feel like you’re on the outside looking in?,False,1,4,Rejection and Hardship,False,,#ADD8E6,1,2025-10-07 16:30:33.462439
+128,7,7_17,17,What do you want to remind yourself when people leave you out? [playlist:Rejection] [playlist:Believe],False,1,4,Rejection and Hardship,False,,#98FB98,1,2025-10-07 16:30:33.492553
+129,7,7_18,18,When someone talks behind your back,True,10,4,Rejection and Hardship,False,,#B0C4DE,1,2025-10-07 16:30:33.524037
+130,7,7_19,19,When a teacher/adult treated you unfairly,True,10,4,Rejection and Hardship,False,,#F08080,1,2025-10-07 16:30:33.554051
+131,7,7_20,20,"When you feel disappointed—whether in yourself, people, or life—what helps you stay grounded?",True,10,4,Rejection and Hardship,False,,#ADD8E6,1,2025-10-07 16:30:33.584912
+132,7,7_21,21,Think about something hard you’ve been through. What helped you get through it?,True,10,4,Rejection and Hardship,False,,#98FB98,1,2025-10-07 16:30:33.615409
+133,7,7_22,22,What’s something you regret not doing?,True,10,5,"Regret, Repair, and the Road Ahead",False,,#ADD8E6,1,2025-10-07 16:30:33.645779
+134,7,7_23,23,What’s something you regret doing?,True,10,5,"Regret, Repair, and the Road Ahead",False,,#98FB98,1,2025-10-07 16:30:33.675295
+135,7,7_24,24,What’s something you’re dealing with that your parents didn’t at your age?,True,10,6,"Regret, Repair, and the Road Ahead",False,,#FFE066,1,2025-10-07 16:30:33.707087
+136,7,7_25,25,What do you wish adults understood about being a teen?,True,10,6,Adults & society,False,,#ADD8E6,1,2025-10-07 16:30:33.736884
+137,7,7_26,26,Forget about parties—what do you wish politicians actually understood about your life?,True,10,6,Adults & society,False,,#FFB6C1,1,2025-10-07 16:30:33.767290
+138,7,7_27,27,Do you ever think about how the way you talk affects how clearly you get your point across?,False,1,7,"Like, You Know, Kinda Confident",False,,#D6C7E7,1,2025-10-07 16:30:33.798398
+139,7,7_28,28,This isn’t grammar police—we don’t care where commas go. We’re just asking… how many “likes” per sentence are you rocking these days? No shade. Just stats.,False,1,7,"Like, You Know, Kinda Confident",False,,#ADD8E6,1,2025-10-07 16:30:33.829196
+140,7,7_29,29,"You know when you say “you know”… and the other person doesn’t actually know? But you say it anyway… because it feels right? So how often do you, like, you know… say “you know”?  (This question is—you know—kind of genius.)",False,1,7,"Like, You Know, Kinda Confident",False,,#ADD8E6,1,2025-10-07 16:30:33.859698
+141,7,7_30,30,"If your thoughts had a soundtrack today, what would it sound like?",False,1,8,"Color, Weather, Sound: You",False,,#98FB98,1,2025-10-07 16:30:33.890632
+142,7,7_31,31,"If your mind was a weather forecast today, what would it say?",False,1,8,"Color, Weather, Sound: You",False,,#FFB6C1,1,2025-10-07 16:30:33.921353
+143,7,7_32,32,"If you could pack one emotion in your backpack forever, what would it be?",False,1,8,"Color, Weather, Sound: You",False,,#FFE066,1,2025-10-07 16:30:33.950832
+144,7,7_33,33,What color best matches your mood right now?,False,1,8,"Color, Weather, Sound: You",False,,#FFAD84,1,2025-10-07 16:30:33.980369
+145,8,8_1,1,"Forgiveness isn’t a race. Fast, slow, or never—how you handle it is still a story worth telling.  Do you forgive fast, slow… or never?",False,1,1,"Forgive, for Real",False,,#ADD8E6,1,2025-10-07 16:30:34.011227
+146,8,8_2,2,What helps you forgive someone?,True,10,1,"Forgive, for Real",False,,#ADD8E6,1,2025-10-07 16:30:34.041517
+147,8,8_3,3,Do you forgive yourself easily?,False,1,1,"Forgive, for Real",False,,#D6C7E7,1,2025-10-07 16:30:34.071829
+148,8,8_4,4,What makes you feel like you’ve healed?,True,10,1,"Forgive, for Real",False,,#98FB98,1,2025-10-07 16:30:34.102203
+149,8,8_5,5,Imagine they’d actually listen. No excuses. No eye rolls. Just… listening.  [playlist:Hurt]  What would you say to the person who hurt you?,True,10,2,The Way Forward 🎵[playlist:5 Years Later],False,,#FFAD84,1,2025-10-07 16:30:34.131972
+150,8,8_6,6,What helps you move on from something that still stings?,True,10,2,The Way Forward,False,,#FFE066,1,2025-10-07 16:30:34.161682
+151,8,8_7,7,What are the things you’ve done that helped you feel whole again?,True,10,2,The Way Forward,False,,#ADD8E6,1,2025-10-07 16:30:34.193243
+152,9,9_1,1,“Your self-worth is determined by you. You don’t have to depend on someone telling you who you are.” - bell hooks What do you want to believe about yourself—even on tough days?,True,10,1,I Know Who I Am 🎵[playlist:Believe],False,,#ADD8E6,1,2025-10-07 16:30:34.223646
+153,9,9_2,2,"Many teens feel: “When the jokes stop, I can finally just be chill around them.” What’s something you wish people would stop teasing you about?",True,10,1,I Know Who I Am,False,,#FFB6C1,1,2025-10-07 16:30:34.254349
+154,9,9_3,3,"“When someone crosses the line, your body knows it—even if your face says nothing.”  [playlist:Believe]  What’s your go-to move when someone crosses the line?",False,1,1,I Know Who I Am,False,,#F08080,1,2025-10-07 16:30:34.284361
+155,9,9_4,4,You get one line to shut down a hater—what is it?,False,1,1,I Know Who I Am,False,,#B0C4DE,1,2025-10-07 16:30:34.314397
+156,9,9_5,5,"1 in 5 teens experienced bullying.  You see someone being physically bullied in the hallway—like shoved, blocked, or grabbed. What do you do?",False,1,2,Someone Has to Do Something,False,,#98FB98,1,2025-10-07 16:30:34.344164
+157,9,9_6,6,"If you see someone being verbally bullied, what do you do?",False,1,2,Someone Has to Do Something,False,,#FFE066,1,2025-10-07 16:30:34.375016
+158,9,9_7,7,"Let’s say someone starts physically bullying you—like shoving, hitting, or threatening you. What do you think you’d do?",False,1,2,Someone Has to Do Something,False,,#FFE066,1,2025-10-07 16:30:34.404993
+159,9,9_8,8,"If someone’s byllied you—insulting, mocking, or spreading rumors. How would you respond?",False,1,2,Someone Has to Do Something,False,,#F08080,1,2025-10-07 16:30:34.436674
+160,9,9_9,9,If someone left a mean comment on your post... what would you do?,False,1,2,Someone Has to Do Something,False,,#B0C4DE,1,2025-10-07 16:30:34.466391
+161,9,9_10,10,"What if someone made fun of your parent—how they look, talk, or what they do?",True,10,2,Someone Has to Do Something,False,,#F08080,1,2025-10-07 16:30:34.495845
+162,9,9_11,11,What’s your villain origin story?,True,10,1,I Know Who I Am,False,,#ADD8E6,1,2025-10-07 16:30:34.526736
+163,9,9_12,12,"If someone tries to bring drama, what’s your signature move?",False,1,1,I Know Who I Am,False,,#ADD8E6,1,2025-10-07 16:30:34.556050
+164,9,9_13,13,No judgment—everyone handles tension their own way. Some pause. Some pounce. Some panic and joke. What’s your go-to rhythm?  We’re not clocking you like it’s the Olympics—just curious what your survival setting is. How many seconds do you pause before replying—especially with difficult people?,False,1,1,I Know Who I Am,False,,#98FB98,1,2025-10-07 16:30:34.585718
+165,10,10_2,2,"Every house has a rhythm — a beat you can feel even when nobody’s talking. At your dinner table, was it small talk, deep talk, or no talk at all?  Do you talk about your day or interesting topics during dinner?",False,1,1,Home is a Vibe,False,,#FFE066,1,2025-10-07 16:30:34.616834
+166,10,10_3,3,Have you ever lied to your parents?,False,1,1,Home is a Vibe,False,,#F08080,1,2025-10-07 16:30:34.645607
+167,10,10_4,4,How often do you lie in general?,False,1,1,Home is a Vibe,False,,#ADD8E6,1,2025-10-07 16:30:34.675361
+168,10,10_5,5,"If you ever hide the truth from your parents, what are you usually hiding?",True,10,1,Home is a Vibe,False,,#FFE066,1,2025-10-07 16:30:34.704959
+169,10,10_6,6,"When you avoid telling someone the full truth, what’s usually about this person?",False,1,1,Home is a Vibe,False,,#FFAD84,1,2025-10-07 16:30:34.736311
+170,10,10_7,7,What makes you feel safe enough to tell someone the whole truth?,False,1,1,Home is a Vibe,False,,#FFE066,1,2025-10-07 16:30:34.766672
+171,10,10_9,9,"Every family has tension—loud or quiet, it shows up. Some people rush in. Some shut down. Some disappear. There’s no perfect way to handle it—but your pattern comes from somewhere—and it matters.  When someone in your family is upset, what do you do?",False,1,2,When Home Gets Loud,False,,#D6C7E7,1,2025-10-07 16:30:34.797911
+172,10,10_10,10,Every house argues—it’s part of being human. But how it starts… and how it ends… tells you a lot. What’s the script you know by heart?  How do arguments usually go in your house?,False,1,2,When Home Gets Loud,False,,#ADD8E6,1,2025-10-07 16:30:34.827504
+173,10,10_11,11,Most tension starts small—until it builds into something big. It’s not just what people fight about—it’s what goes unsaid that builds pressure.  What sparks it most where you live?,False,1,2,When Home Gets Loud,False,,#98FB98,1,2025-10-07 16:30:34.856857
+174,10,10_12,12,Every couple fights—it’s part of being close. But how they argue teaches you something: What respect looks like. Whether people take responsibility. Whether things get repaired—or just buried.  How do your parents argue?,False,1,2,When Home Gets Loud,False,,#B0C4DE,1,2025-10-07 16:30:34.887339
+175,10,10_13,13,"Even when it’s hard to watch, arguments can teach us things.   What have your parents’ arguments taught you—about love, respect, or yourself?",True,10,2,When Home Gets Loud,False,,#F08080,1,2025-10-07 16:30:34.917205
+176,10,10_14,14,Every household has repeat fights—like a playlist stuck on loop.  What do your parents usually argue about?,False,1,2,When Home Gets Loud,False,,#ADD8E6,1,2025-10-07 16:30:34.948526
+177,10,10_15,15,"Parents don’t always say what’s really going on. But you feel it—through their moods, their tone, their silence.  What do you think is weighing on them lately?",False,1,2,When Home Gets Loud,False,,#98FB98,1,2025-10-07 16:30:34.979688
+178,10,10_16,16,"Even if it’s not your fight, it affects you. Some teens hide. Some freeze. Some jump in.  What’s your instinct when the room goes tense?",False,1,2,When Home Gets Loud,False,,#B0C4DE,1,2025-10-07 16:30:35.012127
+179,10,10_17,17,"The kitchen CEO has the power: they choose the menu, set the vibe, control the spice level, and who complains about it.. Curious how your setup compares to others? You’re about to help build the stats.  Who cooks in your home most of the time?",False,1,3,Chores,False,,#F08080,1,2025-10-07 16:30:35.042238
+180,10,10_18,18,How’s the mess level in your house vs your room?,False,1,3,Chores,False,,#ADD8E6,1,2025-10-07 16:30:35.074521
+181,10,10_19,19,"Some chores you’re asked to do. Others just… become yours. Cooking, cleaning, babysitting—every home runs on someone’s effort.  Which jobs do you find yourself doing (even when no one says thanks)?",True,10,3,Chores,False,,#FFAD84,1,2025-10-07 16:30:35.104804
+182,10,10_20,20,"Some people get paid for chores. Some get paid for grades. Some get… nothing. Allowance rules say a lot about how families see effort, trust, and money. Curious how your setup compares to others? You’re about to help build the stats.  Is your allowance based on anything?",False,1,3,Chores,False,,#FFB6C1,1,2025-10-07 16:30:35.138207
+183,10,10_21,21,Some save. Some spend. Some make it disappear on snacks and vibes. Money habits start early—even the tiny ones.  What do you usually do with your allowance?,True,10,3,Chores,False,,#98FB98,1,2025-10-07 16:30:35.169962
+184,10,10_22,22,"You don’t always say it out loud—but it still leaks out. Some teens hide. Some shut down. Some start fights.  When something hurts, what do you actually do at home?",False,1,4,What I Wish Them Knew 🎵[playlist:Family],False,,#FFE066,1,2025-10-07 16:30:35.201978
+185,10,10_23,23,Some things are hard to say out loud—but they still matter. Feeling misunderstood can make even love feel heavy. [playlist:Family]  What do you wish your parent understood about you?,False,1,4,What I Wish Them Knew,False,,#ADD8E6,1,2025-10-07 16:30:35.233132
+186,10,10_24,24,Support isn’t just about love—it’s about how it’s given. Even the best intentions can miss the mark. What would actually help you feel seen and heard? Want to say something without a fight? Share this playlist with your parent. It's not about blame. It’s about how support can feel strong and soft. [playlist:Family]  What do you wish your parents did differently to support you?,True,10,4,What I Wish Them Knew,False,,#FFB6C1,1,2025-10-07 16:30:35.265277
+187,11,11_1,1,Did you know many teens have tried AI for school or learning? Have you used the following AI tools?,True,10,1,"AI and Me: Use It, Build It, or Stop it 🎵[playlist:AI and Me]",False,,#ADD8E6,1,2025-10-07 16:30:35.297804
+188,11,11_2,2,What did you use them for?,True,10,1,"AI & Me: Use It, Build It, or Stop it",False,,#F08080,1,2025-10-07 16:30:35.329375
+189,11,11_3,3,What’s stopping you from using AI more?,False,1,1,"AI & Me: Use It, Build It, or Stop it",False,,#ADD8E6,1,2025-10-07 16:30:35.361304
+190,11,11_4,4,What is your plan with AI?,False,1,1,"AI & Me: Use It, Build It, or Stop it",False,,#FFE066,1,2025-10-07 16:30:35.391829
+191,11,11_5,5,"If you chose to build it or use it, which role sounds most like you?",False,1,1,"AI & Me: Use It, Build It, or Stop it",False,,#FFB6C1,1,2025-10-07 16:30:35.423701
+192,11,11_6,6,Should we stop AI?,False,1,1,"AI & Me: Use It, Build It, or Stop it",False,,#FFAD84,1,2025-10-07 16:30:35.456630
+193,11,11_7,7,"You don’t get polled—but you’ll live the outcome. AI is changing jobs, and 41% of grads aren’t using their degrees. What kinds of new jobs do you think could grow—knowing no one can really predict the future?  You may want to check out ""The Future of Work"" at BBC",True,10,2,"Work, Worth & the AI Economy",False,,#FFE066,1,2025-10-07 16:30:35.487174
+194,11,11_8,8,"If you could make good money without a degree, would you skip college? No one path fits all. But asking these questions early? That’s what smart people do.",False,1,2,"Work, Worth & the AI Economy",False,,#F08080,1,2025-10-07 16:30:35.518134
+195,11,11_9,9,Should you learn to weld and make $150k underwater?,False,1,2,"Work, Worth & the AI Economy",False,,#D6C7E7,1,2025-10-07 16:30:35.548922
+196,11,11_10,10,Plumbing: one of the last jobs robots can’t do (yet). Would you?,False,1,2,"Work, Worth & the AI Economy",False,,#ADD8E6,1,2025-10-07 16:30:35.579560
+197,11,11_11,11,Plenty of sunshine. Plenty of weeds. No robots in sight (yet). Jobs like hand-weeding are open. Would you take one?,False,1,2,"Work, Worth & the AI Economy",False,,#98FB98,1,2025-10-07 16:30:35.611313
+198,11,11_12,12,How much would you want to be paid per year to pull weeds?,False,1,2,"Work, Worth & the AI Economy",False,,#B0C4DE,1,2025-10-07 16:30:35.641961
+199,11,11_13,13,"How much do you think workers like this (e.g., weeding by hand) are usually paid per year?",False,1,2,"Work, Worth & the AI Economy",False,,#F08080,1,2025-10-07 16:30:35.673060
+200,11,11_14,14,"Even before AI hit the job market, over half of young adults (18–29) were still living with their parents. If jobs stay flaky and rent keeps climbing, what’s your Plan B?",False,1,2,"Work, Worth & the AI Economy",False,,#ADD8E6,1,2025-10-07 16:30:35.703137
+201,11,11_15,15,"When AI does the work, humans still need to eat. Should the government step in—or let it play out? Your ideas now could shape what happens next. This isn’t a quiz—it’s a fork in the road.",False,1,2,"Work, Worth & the AI Economy",False,,#FFB6C1,1,2025-10-07 16:30:35.735474
+202,11,11_16,16,"Let’s say you got $1,000/month UBI, no strings attached. Would it be survival? Freedom? Strategy? What’s your real plan?",False,1,2,"Work, Worth & the AI Economy",False,,#98FB98,1,2025-10-07 16:30:35.768235
+203,11,11_17,17,"If AI is so powerful—like, powerful enough to take everyone’s job—why can’t it earn $100K a year for everyone?",False,1,2,"Work, Worth & the AI Economy",False,,#FFE066,1,2025-10-07 16:30:35.798789
+204,11,11_18,18,You grew up with AI in your pocket. Maybe you’re the first generation to dream beyond survival. What would you do if you had $100K/year—no strings attached?,True,10,2,"Work, Worth & the AI Economy",False,,#FFAD84,1,2025-10-07 16:30:35.830421
+205,11,11_19,19,"If AI can do most of the work, what do you think humans are here for?",False,1,2,"Work, Worth & the AI Economy",False,,#D6C7E7,1,2025-10-07 16:30:35.862303
+206,11,11_20,20,Why do you think people should work?,True,10,2,"Work, Worth & the AI Economy",False,,#F08080,1,2025-10-07 16:30:35.893421
+207,11,11_22,22,"In a tech-filled future, what still excites you most?",True,10,3,"Future Me: Real, Brave, and Still Human",False,,#ADD8E6,1,2025-10-07 16:30:35.924471
+208,11,11_23,23,What’s something you secretly hope to be amazing at?,True,10,3,"Future Me: Real, Brave, and Still Human 🎵[playlist:Theme Song]",False,,#98FB98,1,2025-10-07 16:30:35.953145
+209,11,11_24,24,What’s your biggest fear about the future?,True,10,3,"Future Me: Real, Brave, and Still Human",False,,#B0C4DE,1,2025-10-07 16:30:35.983995
+210,11,11_25,25,What are you quietly building for your future self—something even smarter tech can’t touch?,True,10,3,"Future Me: Real, Brave, and Still Human",False,,#F08080,1,2025-10-07 16:30:36.015042
+211,12,12_1,1,Back-to-school isn’t just supplies and schedules. It’s a whole emotional climate change. What’s your first day of school vibe?,False,1,1,Ready or Not,False,,#ADD8E6,1,2025-10-07 16:30:36.046825
+212,12,12_2,2,What went through your head when you saw your class seating chart?,False,1,1,Ready or Not,False,,#FFB6C1,1,2025-10-07 16:30:36.079555
+213,12,12_3,3,How different do you feel compared to last school year?,False,1,1,Ready or Not,False,,#98FB98,1,2025-10-07 16:30:36.110832
+214,12,12_4,4,What was your school vibe last year?,False,1,1,Ready or Not,False,,#ADD8E6,1,2025-10-07 16:30:36.143516
+215,12,12_5,5,Which school subjects do you actually enjoy? (Pick up to 3),True,3,1,Ready or Not,False,,#98FB98,1,2025-10-07 16:30:36.174222
+216,12,12_6,6,Which PE sports do you like most? (Pick up to 3),True,3,1,Ready or Not,False,,#ADD8E6,1,2025-10-07 16:30:36.209912
+217,12,12_7,7,What stresses you the most?,True,10,2,From pressure to preparation.,False,,#F08080,1,2025-10-07 16:30:36.247014
+218,12,12_8,8,"When big tests come up, which part is hardest for you?",True,10,2,From pressure to preparation.,False,,#D6C7E7,1,2025-10-07 16:30:36.278058
+219,12,12_9,9,"When tests feel hard, what do you usually do?",True,10,2,From pressure to preparation.,False,,#FFAD84,1,2025-10-07 16:30:36.309996
+220,12,12_10,10,"In group projects, what tends to go wrong most often?",True,10,2,From pressure to preparation.,False,,#FFE066,1,2025-10-07 16:30:36.340122
+221,12,12_11,11,How do you handle it when the group stalls?,True,10,2,From pressure to preparation.,False,,#F08080,1,2025-10-07 16:30:36.372807
+222,12,12_12,12,When a group project falls apart but you did your part…,False,1,2,From pressure to preparation.,False,,#D6C7E7,1,2025-10-07 16:30:36.404878
+223,12,12_13,13,"In class discussions, what role do you usually take?",True,10,3,When You Speak Up,False,,#ADD8E6,1,2025-10-07 16:30:36.437335
+224,12,12_14,14,When the teacher asks a question and no one answers…,False,1,3,When You Speak Up,False,,#98FB98,1,2025-10-07 16:30:36.468378
+225,12,12_15,15,"If a teacher calls on you and you don’t know the answer, what do you do?",False,1,3,When You Speak Up,False,,#B0C4DE,1,2025-10-07 16:30:36.499973
+226,12,12_16,16,"If you give the wrong answer in class, what do you do next?",False,1,3,When You Speak Up,False,,#F08080,1,2025-10-07 16:30:36.533507
+227,12,12_17,17,You said something in class or in a group… and everyone just ignored it. What’s your first thought?,False,1,3,When You Speak Up,False,,#ADD8E6,1,2025-10-07 16:30:36.565744
+228,12,12_18,18,"If you had to choose a vibe: cozy, chaotic, chill, or clever?",False,1,4,Between the Bells,False,,#FFB6C1,1,2025-10-07 16:30:36.596891
+229,12,12_19,19,Where do you feel most like yourself in school?,False,1,4,Between the Bells,False,,#98FB98,1,2025-10-07 16:30:36.630788
+230,12,12_20,20,What’s your usual hallway energy?,False,1,4,Between the Bells,False,,#FFE066,1,2025-10-07 16:30:36.662104
+231,12,12_21,21,"For some, lunch's the best part of the day. For others, it’s like surviving a social obstacle course. How does lunchtime usually feel for you?",False,1,4,Between the Bells,False,,#FFAD84,1,2025-10-07 16:30:36.693379
+232,12,12_22,22,"If lunch isn’t your favorite that day, what’s your move?",True,10,4,Between the Bells,False,,#D6C7E7,1,2025-10-07 16:30:36.724578
+233,12,12_23,23,"At lunch, what do you usually prefer?",True,10,4,Between the Bells,False,,#F08080,1,2025-10-07 16:30:36.755227
+234,12,12_24,24,What do you wish your teacher understood about you?,False,1,5,Rethinking School,False,,#ADD8E6,1,2025-10-07 16:30:36.787278
+235,12,12_25,25,What do you think your teachers might be struggling with?,True,10,5,Rethinking School,False,,#98FB98,1,2025-10-07 16:30:36.819827
+236,12,12_26,26,"The world is changing fast — and so is learning. If the people who design schools asked for your advice, what should school focus on to better help students?",True,10,5,Rethinking School,False,,#B0C4DE,1,2025-10-07 16:30:36.850991
+237,13,13_1,1,Which video games do you play the most?,False,1,1,Video Games,False,,#F08080,1,2025-10-07 16:30:36.881573
+238,13,13_2,2,Who do you play games with the most?,False,1,1,Video Games,False,,#ADD8E6,1,2025-10-07 16:30:36.913500
+239,13,13_3,3,What keeps you playing a game? What’s the hook? (Pick one or two),True,2,1,Video Games,False,,#FFB6C1,1,2025-10-07 16:30:36.947768
+240,13,13_4,4,When do you usually play video games?,False,1,1,Video Games,False,,#98FB98,1,2025-10-07 16:30:36.979123
+241,13,13_5,5,"If this were your last meal, what would you choose for your main course?",False,1,2,Food,False,,#ADD8E6,1,2025-10-07 16:30:37.012009
+242,13,13_6,6,"If this were your last meal, what would you choose for your drink?",False,1,2,Food,False,,#FFAD84,1,2025-10-07 16:30:37.042513
+243,13,13_7,7,Which music genre do you listen to the most? (Pick up to 3),True,3,3,Music,False,,#F08080,1,2025-10-07 16:30:37.072774
+244,13,13_9,9,What’s more important to you in a song? (Pick up to 2),True,2,3,Music,False,,#D6C7E7,1,2025-10-07 16:30:37.103803
+245,13,13_10,10,What kind of shows or movies do you watch most? (Pick up to 3),True,3,4,Movies/Shows,False,,#ADD8E6,1,2025-10-07 16:30:37.135514
+246,13,13_11,11,Where do you usually watch movies or shows? (Pick up to 3),True,3,4,Movies/Shows,False,,#98FB98,1,2025-10-07 16:30:37.167971
+247,13,13_12,12,"Do you watch sports? If yes, what do you watch the most? (Pick 2)",True,2,5,Sports,False,,#B0C4DE,1,2025-10-07 16:30:37.197113
+248,14,14_1,1,What do you do when you feel a fart coming during class?,False,1,1,Bodily Betrayal 101,False,,#F08080,1,2025-10-07 16:30:37.229925
+249,14,14_2,2,What’s the worst time for your stomach to make a weird noise?,False,1,1,Bodily Betrayal 101,False,,#ADD8E6,1,2025-10-07 16:30:37.261238
+250,14,14_3,3,What’s the worst time to sneeze?,False,1,1,Bodily Betrayal 101,False,,#FFB6C1,1,2025-10-07 16:30:37.294456
+251,14,14_4,4,Which day is the worst to wake up with a giant pimple?,False,1,1,Bodily Betrayal 101,False,,#98FB98,1,2025-10-07 16:30:37.324968
+252,14,14_5,5,What do you do when you wave back—and realize it wasn’t for you?,False,1,2,Cringe & Chaos Edition,False,,#FFE066,1,2025-10-07 16:30:37.356957
+253,14,14_6,6,What’s the dumbest reason your friend group has ever argued?,False,1,2,Cringe & Chaos Edition,False,,#FFAD84,1,2025-10-07 16:30:37.387840
+254,14,14_7,7,"If your group had a TV show, what’s the first episode called?",False,1,2,Cringe & Chaos Edition,False,,#98FB98,1,2025-10-07 16:30:37.420238
+255,14,14_8,8,What’s the snack rule at your sleepovers?,False,1,2,Cringe & Chaos Edition,False,,#D6C7E7,1,2025-10-07 16:30:37.453243

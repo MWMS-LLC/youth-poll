@@ -2,11 +2,43 @@ import psycopg2
 import csv
 import os
 from datetime import datetime
-from dotenv import load_dotenv
+from dotenv import load_dotenv, find_dotenv
 import pandas as pd
 
-# Load environment variables
-load_dotenv()
+# Load environment variables robustly (root .env)
+env_path = os.path.join(os.path.dirname(__file__), '..', '.env')
+loaded = load_dotenv(dotenv_path=env_path)
+if not loaded:
+    # Try auto-discovery from project root
+    auto_env = find_dotenv(usecwd=True)
+    if auto_env:
+        load_dotenv(auto_env)
+
+# Debug: show if DATABASE_URL is present without leaking secrets
+_db_url = os.getenv('DATABASE_URL', '')
+if not _db_url:
+    # Manual fallback: parse ../.env and inject key=value pairs
+    try:
+        env_file = os.path.join(os.path.dirname(__file__), '..', '.env')
+        if os.path.exists(env_file):
+            with open(env_file, 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    if not line or line.startswith('#'):
+                        continue
+                    if '=' in line:
+                        key, value = line.split('=', 1)
+                        key = key.strip()
+                        value = value.strip().strip("'\"")
+                        os.environ.setdefault(key, value)
+            _db_url = os.getenv('DATABASE_URL', '')
+    except Exception:
+        pass
+
+if _db_url:
+    print(f"ENV OK: DATABASE_URL loaded ({_db_url.split('://')[0]}://****@{_db_url.split('@')[-1] if '@' in _db_url else '...'} )")
+else:
+    print("WARNING: DATABASE_URL not found in environment")
 
 def clean_csv_value(value):
     """Clean CSV values and handle multi-line content"""
@@ -22,8 +54,12 @@ def clean_csv_value(value):
 def import_setup_data():
     """Import CSV data into PostgreSQL database"""
     
+    backend_dir = os.path.dirname(os.path.abspath(__file__))
+    root_dir = os.path.normpath(os.path.join(backend_dir, '..'))
     # Database connection
-    DATABASE_URL = os.getenv('DATABASE_URL', 'postgresql://postgres@localhost:5432/teen_poll')
+    DATABASE_URL = os.getenv('DATABASE_URL')
+    if not DATABASE_URL:
+        raise RuntimeError('DATABASE_URL not set. Ensure parents1002/.env contains DATABASE_URL and is readable.')
     
     try:
         # Connect to PostgreSQL
@@ -36,7 +72,7 @@ def import_setup_data():
         print("Setting up fresh database schema...")
         
         # Execute setup schema
-        with open('schema_setup.sql', 'r') as f:
+        with open(os.path.join(backend_dir, 'schema_setup.sql'), 'r', encoding='utf-8') as f:
             setup_schema = f.read()
         cursor.execute(setup_schema)
         print("SUCCESS: Setup schema created")
@@ -59,7 +95,7 @@ def import_setup_data():
         
         # Import categories
         print("  Importing categories...")
-        with open('data/categories.csv', 'r', encoding='utf-8-sig') as f:
+        with open(os.path.join(root_dir, 'data', 'categories.csv'), 'r', encoding='utf-8-sig') as f:
             reader = csv.DictReader(f)
             for row in reader:
                 # Parse day_of_week array from PostgreSQL format "{0,1,2,3,4,5,6}"
@@ -87,7 +123,7 @@ def import_setup_data():
         
         # Import blocks
         print("  Importing blocks...")
-        with open('data/blocks.csv', 'r', encoding='utf-8-sig') as f:
+        with open(os.path.join(root_dir, 'data', 'blocks.csv'), 'r', encoding='utf-8-sig') as f:
             reader = csv.DictReader(f)
             for row in reader:
                 cursor.execute("""
@@ -107,7 +143,7 @@ def import_setup_data():
         
         # Import questions
         print("  Importing questions...")
-        with open('data/questions.csv', 'r', encoding='utf-8-sig') as f:
+        with open(os.path.join(root_dir, 'data', 'questions.csv'), 'r', encoding='utf-8-sig') as f:
             reader = csv.DictReader(f)
             for row in reader:
                 cursor.execute("""
@@ -132,7 +168,7 @@ def import_setup_data():
         
         # Import options
         print("  Importing options...")
-        with open('data/options.csv', 'r', encoding='utf-8-sig') as f:
+        with open(os.path.join(root_dir, 'data', 'options.csv'), 'r', encoding='utf-8-sig') as f:
             reader = csv.DictReader(f)
             for row in reader:
                 cursor.execute("""
@@ -170,7 +206,7 @@ def import_setup_data():
 
         # Export options and questions for Excel
         for table in ["categories", "blocks", "options", "questions"]:
-            export_for_excel(f"SELECT * FROM {table}", f"data/{table}_excel.csv", conn)
+            export_for_excel(f"SELECT * FROM {table}", os.path.join(root_dir, f"data/{table}_excel.csv"), conn)
 
         # Show summary
         cursor.execute("SELECT COUNT(*) FROM categories")

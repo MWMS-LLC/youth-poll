@@ -45,12 +45,9 @@ app = FastAPI(lifespan=lifespan)
 origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://myworldmysay.com",
-    "https://www.myworldmysay.com",
-    "https://api.myworldmysay.com",
-    "https://teen.myworldmysay.com",
-    "https://parents.myworldmysay.com",
-    "https://www.parents.myworldmysay.com"
+    "https://youth.myworldmysay.com",
+    "https://www.youth.myworldmysay.com",
+    "https://api.youth.myworldmysay.com"
 ]
 
 app.add_middleware(
