@@ -45,9 +45,12 @@ app = FastAPI(lifespan=lifespan)
 origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+    "https://myworldmysay.com",
+    "https://www.myworldmysay.com",
+    "https://api.myworldmysay.com",
+    "https://teen.myworldmysay.com",
     "https://youth.myworldmysay.com",
-    "https://www.youth.myworldmysay.com",
-    "https://api.youth.myworldmysay.com"
+    "https://parents.myworldmysay.com"
 ]
 
 app.add_middleware(
@@ -270,19 +273,6 @@ def submit_single_vote(vote: dict):
         option_id, option_select, option_code, option_text,
         created_at)
         VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,NOW())
-        ON CONFLICT (user_uuid, question_code)
-        DO UPDATE SET
-            question_text = EXCLUDED.question_text,
-            question_number = EXCLUDED.question_number,
-            category_id = EXCLUDED.category_id,
-            category_name = EXCLUDED.category_name,
-            category_text = EXCLUDED.category_text,
-            block_number = EXCLUDED.block_number,
-            option_id = EXCLUDED.option_id,
-            option_select = EXCLUDED.option_select,
-            option_code = EXCLUDED.option_code,
-            option_text = EXCLUDED.option_text,
-            created_at = NOW()
         """,
         (
             user_uuid, question_code, meta["question_text"], meta["question_number"],
@@ -301,16 +291,6 @@ def submit_single_vote(vote: dict):
             category_id, category_name, category_text, block_number,
             other_text, created_at)
             VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,NOW())
-            ON CONFLICT (user_uuid, question_code)
-            DO UPDATE SET
-                question_text = EXCLUDED.question_text,
-                question_number = EXCLUDED.question_number,
-                category_id = EXCLUDED.category_id,
-                category_name = EXCLUDED.category_name,
-                category_text = EXCLUDED.category_text,
-                block_number = EXCLUDED.block_number,
-                other_text = EXCLUDED.other_text,
-                created_at = NOW()
             """,
             (
                 user_uuid, question_code,
@@ -318,16 +298,6 @@ def submit_single_vote(vote: dict):
                 meta["category_id"], meta["category_name"], meta["category_text"], meta["block_number"],
                 other_text,
             ),
-            fetch=False,
-        )
-    else:
-        # Ensure any previous other_text entry is cleared if user no longer submits one
-        execute_query(
-            """
-            DELETE FROM other_responses
-            WHERE user_uuid = %s AND question_code = %s
-            """,
-            (user_uuid, question_code),
             fetch=False,
         )
 
@@ -363,26 +333,6 @@ def submit_checkbox_vote(vote: dict):
     # Calculate weight (each option gets equal weight)
     weight = 1.0 / len(option_selects)
 
-    # Clear any previous checkbox responses for this user/question so re-voting updates cleanly
-    execute_query(
-        """
-        DELETE FROM checkbox_responses
-        WHERE user_uuid = %s AND question_code = %s
-        """,
-        (user_uuid, question_code),
-        fetch=False,
-    )
-
-    # Remove any prior "other" entry for this question before processing
-    execute_query(
-        """
-        DELETE FROM other_responses
-        WHERE user_uuid = %s AND question_code = %s
-        """,
-        (user_uuid, question_code),
-        fetch=False,
-    )
-
     # Insert each selected option
     for opt in option_selects:
         execute_query(
@@ -411,16 +361,6 @@ def submit_checkbox_vote(vote: dict):
                 category_id, category_name, category_text, block_number,
                 other_text, created_at)
                 VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,NOW())
-                ON CONFLICT (user_uuid, question_code)
-                DO UPDATE SET
-                    question_text = EXCLUDED.question_text,
-                    question_number = EXCLUDED.question_number,
-                    category_id = EXCLUDED.category_id,
-                    category_name = EXCLUDED.category_name,
-                    category_text = EXCLUDED.category_text,
-                    block_number = EXCLUDED.block_number,
-                    other_text = EXCLUDED.other_text,
-                    created_at = NOW()
                 """,
                 (
                     user_uuid, question_code,
@@ -463,16 +403,6 @@ def submit_other_vote(vote: dict):
         category_id, category_name, category_text, block_number,
         other_text, created_at)
         VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,NOW())
-        ON CONFLICT (user_uuid, question_code)
-        DO UPDATE SET
-            question_text = EXCLUDED.question_text,
-            question_number = EXCLUDED.question_number,
-            category_id = EXCLUDED.category_id,
-            category_name = EXCLUDED.category_name,
-            category_text = EXCLUDED.category_text,
-            block_number = EXCLUDED.block_number,
-            other_text = EXCLUDED.other_text,
-            created_at = NOW()
         """,
         (
             user_uuid, question_code,
@@ -483,7 +413,7 @@ def submit_other_vote(vote: dict):
         fetch=False,
     )
 
-    # Create or update placeholder in responses so charts show "Other"
+    # Create a placeholder in responses so charts show "Other"
     execute_query(
         """
         INSERT INTO responses
@@ -492,19 +422,6 @@ def submit_other_vote(vote: dict):
         option_id, option_select, option_code, option_text,
         created_at)
         VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,NOW())
-        ON CONFLICT (user_uuid, question_code)
-        DO UPDATE SET
-            question_text = EXCLUDED.question_text,
-            question_number = EXCLUDED.question_number,
-            category_id = EXCLUDED.category_id,
-            category_name = EXCLUDED.category_name,
-            category_text = EXCLUDED.category_text,
-            block_number = EXCLUDED.block_number,
-            option_id = EXCLUDED.option_id,
-            option_select = EXCLUDED.option_select,
-            option_code = EXCLUDED.option_code,
-            option_text = EXCLUDED.option_text,
-            created_at = NOW()
         """,
         (
             user_uuid, question_code,
@@ -549,12 +466,8 @@ def get_results(question_code: str):
     single_counts = execute_query(
         """
         SELECT option_select, COUNT(*)::float as votes
-        FROM (
-            SELECT DISTINCT ON (user_uuid) option_select
-            FROM responses
-            WHERE question_code = %s
-            ORDER BY user_uuid, created_at DESC
-        ) latest_votes
+        FROM responses
+        WHERE question_code = %s
         GROUP BY option_select
         """,
         (question_code,)
@@ -564,12 +477,8 @@ def get_results(question_code: str):
     checkbox_counts = execute_query(
         """
         SELECT option_select, COALESCE(SUM(weight),0)::float as votes
-        FROM (
-            SELECT DISTINCT ON (user_uuid, option_select) weight, option_select
-            FROM checkbox_responses
-            WHERE question_code = %s
-            ORDER BY user_uuid, option_select, created_at DESC
-        ) latest_checkbox_votes
+        FROM checkbox_responses
+        WHERE question_code = %s
         GROUP BY option_select
         """,
         (question_code,)
@@ -594,14 +503,15 @@ def get_results(question_code: str):
             "votes": votes
         })
 
-    # --- Total responses as integer (distinct users across both tables) ---
+    # --- Total responses as integer (count all answers, not unique users) ---
+    # Count all responses: one per row in responses table, one per row in checkbox_responses table
     total_result = execute_query(
         """
-        SELECT COUNT(DISTINCT user_uuid) AS n FROM (
+        SELECT COUNT(*) AS n FROM (
             SELECT user_uuid
             FROM responses
             WHERE question_code = %s
-            UNION
+            UNION ALL
             SELECT user_uuid
             FROM checkbox_responses
             WHERE question_code = %s

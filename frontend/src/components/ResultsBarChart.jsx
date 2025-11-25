@@ -29,14 +29,14 @@ const ResultsBarChart = ({ results, _questionText, options = [] }) => {
         </div>
         
         <div style={styles.totalResponses}>
-          Total responses: 0
+          Total votes: 0
         </div>
       </div>
     )
   }
 
-  // Use total_responses from backend, fallback to calculating from votes
-  const totalResponses = results.total_responses || results.results.reduce((sum, item) => {
+  // Always calculate total votes so multi-select questions sum to 100%
+  const totalVotes = results.results.reduce((sum, item) => {
     const count = parseFloat(item.votes) || 0
     if (isNaN(count) || count < 0) {
       console.warn('Invalid votes value:', item.votes, 'for option:', item.option_select)
@@ -44,6 +44,12 @@ const ResultsBarChart = ({ results, _questionText, options = [] }) => {
     }
     return sum + count
   }, 0)
+  
+  // Keep track of backend total responses (fallback when no votes yet)
+  const totalResponses = results.total_responses || 0
+  
+  // Denominator for percentages (use total votes, fallback to total responses)
+  const percentageBase = totalVotes > 0 ? totalVotes : totalResponses
   
   // Transform data for progress bars with safety checks
   const chartData = results.results.map(item => {
@@ -54,7 +60,7 @@ const ResultsBarChart = ({ results, _questionText, options = [] }) => {
       return null
     }
     
-    const percentage = totalResponses > 0 ? Math.round((count / totalResponses) * 100) : 0
+    const percentage = percentageBase > 0 ? Math.round((count / percentageBase) * 100) : 0
     
     if (isNaN(percentage) || percentage < 0) {
       console.warn('Invalid percentage calculated:', percentage, 'for option:', item.option_select)
@@ -69,7 +75,7 @@ const ResultsBarChart = ({ results, _questionText, options = [] }) => {
   }).filter(item => item !== null && item.option !== 'Unknown')
 
   // Ensure we have valid data
-  if (chartData.length === 0 || totalResponses === 0 || isNaN(totalResponses)) {
+  if (chartData.length === 0 || percentageBase === 0 || isNaN(percentageBase)) {
     return (
       <div style={styles.container}>
         <div style={styles.emptyState}>
@@ -77,11 +83,14 @@ const ResultsBarChart = ({ results, _questionText, options = [] }) => {
         </div>
         
         <div style={styles.totalResponses}>
-          Total responses: 0
+          Total votes: 0
         </div>
       </div>
     )
   }
+
+  const totalLabelValue = Math.round(totalVotes > 0 ? totalVotes : totalResponses)
+  const totalLabelPrefix = 'Total votes'
 
   return (
     <div style={styles.container}>
@@ -114,7 +123,7 @@ const ResultsBarChart = ({ results, _questionText, options = [] }) => {
 
       {/* Total Responses */}
       <div style={styles.totalResponses}>
-        Total responses: {Math.round(totalResponses)}
+        {totalLabelPrefix}: {totalLabelValue}
       </div>
     </div>
   )
